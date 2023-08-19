@@ -1,7 +1,9 @@
+import projectsSection from '../sections/projectsSection'
+
 export default {
   name: 'homepage',
   type: 'document',
-  title: 'LV0: Homepage ↓',
+  title: 'LV0: HOMEPAGE ↓',
   fields: [
     {
       name: 'heroSection',
@@ -19,5 +21,9 @@ export default {
       type: 'visionStatementSection',
       title: 'Vision Statement Section',
     },
+    {name: 'projectsSection', type: 'projectsSection', title: 'Projects Section'},
+    {name: 'clientsSection', type: 'clientsSection', title: 'Clients Section'},
+    {name: 'blogsSection', type: 'blogsSection', title: 'Blogs Section'},
+    {name: 'contactSection', type: 'contactSection', title: 'Contact Section'},
   ],
 }
